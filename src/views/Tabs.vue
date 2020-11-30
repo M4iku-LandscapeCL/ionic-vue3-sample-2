@@ -46,6 +46,9 @@ export default {
     IonIcon,
     IonPage,
   },
+  mounted() {
+    alert('load list from axios');
+  },
   setup() {
     return {
       cloudOutline,
