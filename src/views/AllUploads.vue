@@ -56,6 +56,9 @@ export default defineComponent({
     IonRefresherContent,
     IonButton,
   },
+  mounted() {
+    alert('list');
+  },
   setup() {
     const { files, listFiles } = useFirebaseFileUpload();
     const router = useRouter();
