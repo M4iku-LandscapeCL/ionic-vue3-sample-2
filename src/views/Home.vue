@@ -171,6 +171,9 @@ export default defineComponent({
       progressBarStyleCalc,
     };
   },
+  mounted() {
+    alert('load list from axios');
+  },
 });
 </script>
 
